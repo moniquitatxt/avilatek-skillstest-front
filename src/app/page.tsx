@@ -1,3 +1,4 @@
+import IntegrationsSection from "@/components/IntegrationsSection";
 import NavBar from "../components/NavBar";
 import MainSection from "@/components/MainSection";
 
@@ -8,6 +9,7 @@ export default function Home() {
 			<div>
 				<MainSection />
 			</div>
+			<IntegrationsSection />
 		</main>
 	);
 }

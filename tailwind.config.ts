@@ -22,6 +22,7 @@ const config: Config = {
 	},
 	colors: {
 		gray: { "600": "#475467", "700": "#344054" },
+		purple: { "400": "#6941c6" },
 	},
 	plugins: [],
 };
