@@ -3,12 +3,11 @@ import MainSection from "@/components/MainSection";
 
 export default function Home() {
 	return (
-		<div>
+		<main className="max-w-[1216px] mx-auto">
 			<NavBar />
 			<div>
 				<MainSection />
 			</div>
-			<main>Hello world</main>
-		</div>
+		</main>
 	);
 }
