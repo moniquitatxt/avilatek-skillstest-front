@@ -2,6 +2,7 @@ import IntegrationsSection from "@/components/IntegrationsSection";
 import NavBar from "../components/NavBar";
 import MainSection from "@/components/MainSection";
 import CtaSection from "@/components/CtaSection";
+import FeaturesSection from "@/components/FeaturesSection";
 
 export default function Home() {
 	return (
@@ -12,6 +13,7 @@ export default function Home() {
 			</div>
 			<IntegrationsSection />
 			<CtaSection />
+			<FeaturesSection />
 		</main>
 	);
 }
