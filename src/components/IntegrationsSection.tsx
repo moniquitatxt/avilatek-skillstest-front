@@ -29,7 +29,7 @@ const IntegrationsSection: React.FC = () => {
 	];
 
 	return (
-		<div className="text-center pt-[250px] pb-[80px] ">
+		<div className="text-center">
 			<p className="text-purple-400 text-[14px] font-medium mb-2">
 				Integrations
 			</p>

@@ -6,6 +6,7 @@ import FeaturesSection from "@/components/FeaturesSection";
 import NoCatchesSection from "@/components/NoCatchesSection";
 import FrequentQuestionsSection from "@/components/FrequentQuestionsSection";
 import TestimonialSection from "@/components/TestimonialSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 	return (
@@ -20,6 +21,7 @@ export default function Home() {
 			<NoCatchesSection />
 			<FrequentQuestionsSection />
 			<TestimonialSection />
+			<Footer />
 		</main>
 	);
 }

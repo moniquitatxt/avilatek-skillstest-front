@@ -2,11 +2,12 @@ import Image from "next/image";
 
 const NoCatchesSection: React.FC = () => {
 	return (
-		<div className="md:flex ">
-			<div className=" flex items-center md:w-2/3 rounded-l-[24px]">
-				<div className="md:m-10">
+		<div className="max-w-[1200px] flex">
+			<div className=" flex items-center ">
+				<div className="">
 					<h2 className="text-3xl font-semibold mb-4 md:text-4xl">
-						No long-term contracts. No catches.
+						No long-term contracts.
+						<br /> No catches.
 					</h2>
 					<p className="text-lg mb-4 md:text-xl">
 						Start your 30-day free trial today.
@@ -22,14 +23,44 @@ const NoCatchesSection: React.FC = () => {
 				</div>
 			</div>
 
-			<div className="mt-8 md:mt-0 md:w-1/2">
-				<Image
-					src="/aux-image.svg"
-					alt="Cta Image"
-					width={480}
-					height={400}
-					className="w-full h-auto md:h-full md:w-full object-cover rounded-r-[24px] "
-				/>
+			<div className="">
+				<div className="flex justify-center place-items-baseline">
+					<Image
+						src="/image-collage-1.svg"
+						alt="Cta Image"
+						width={160}
+						height={160}
+						className="m-3.5"
+					/>
+					<Image
+						src="/image-collage-2.svg"
+						alt="Cta Image"
+						width={160}
+						height={240}
+						className=" b-0"
+					/>
+				</div>
+				<div className="flex justify-center items-start ">
+					<Image
+						src="/image-collage-3.svg"
+						alt="Cta Image"
+						width={192}
+						height={128}
+					/>
+					<Image
+						src="/image-collage-4.svg"
+						alt="Cta Image"
+						width={160}
+						height={240}
+					/>
+					<Image
+						src="/aux-image.svg"
+						alt="Cta Image"
+						width={192}
+						height={128}
+						className=" "
+					/>
+				</div>
 			</div>
 		</div>
 	);
