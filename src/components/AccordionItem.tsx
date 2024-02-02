@@ -15,15 +15,19 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
 	};
 
 	return (
-		<div className="border-b mb-2">
+		<div className="border-b my-6">
 			<div
 				className="flex items-center justify-between cursor-pointer"
 				onClick={toggleAccordion}
 			>
-				<h3 className="text-[18px] font-medium ">{title}</h3>
+				<h3 className="text-lg font-medium ">{title}</h3>
 				{isOpen ? <FaMinus /> : <FaPlus />}
 			</div>
-			{isOpen && <p className="mt-2">{content}</p>}
+			{isOpen && (
+				<p className="text-gray-600 mt-2 text-base " text-gray-600>
+					{content}
+				</p>
+			)}
 		</div>
 	);
 };

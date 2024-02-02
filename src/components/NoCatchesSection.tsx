@@ -3,7 +3,6 @@ import Image from "next/image";
 const NoCatchesSection: React.FC = () => {
 	return (
 		<div className="md:flex ">
-			{/* Left Section */}
 			<div className=" flex items-center md:w-2/3 rounded-l-[24px]">
 				<div className="md:m-10">
 					<h2 className="text-3xl font-semibold mb-4 md:text-4xl">

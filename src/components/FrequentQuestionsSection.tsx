@@ -31,8 +31,8 @@ const FrequentQuestionsSection: React.FC = () => {
 	];
 
 	return (
-		<div>
-			<div className="text-center py-[80px]  ">
+		<div className="py-[80px] max-w-[768px] mx-auto">
+			<div className="text-center  ">
 				<h2 className="text-[44px] font-semibold mb-4">
 					Frequently asked questions
 				</h2>

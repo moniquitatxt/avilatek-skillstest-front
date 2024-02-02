@@ -3,7 +3,6 @@ import Image from "next/image";
 const CtaSection: React.FC = () => {
 	return (
 		<div className=" text-white md:flex ">
-			{/* Left Section */}
 			<div className="bg-purple-500 flex items-center md:w-2/3 rounded-l-[24px]">
 				<div className="md:m-10">
 					<h2 className="text-3xl font-semibold mb-4 md:text-4xl">
@@ -22,7 +21,6 @@ const CtaSection: React.FC = () => {
 					</div>
 				</div>
 			</div>
-
 			<div className="mt-8 md:mt-0 md:w-1/2">
 				<Image
 					src="/aux-image.svg"

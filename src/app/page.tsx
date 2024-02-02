@@ -5,6 +5,7 @@ import CtaSection from "@/components/CtaSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import NoCatchesSection from "@/components/NoCatchesSection";
 import FrequentQuestionsSection from "@/components/FrequentQuestionsSection";
+import TestimonialSection from "@/components/TestimonialSection";
 
 export default function Home() {
 	return (
@@ -18,6 +19,7 @@ export default function Home() {
 			<FeaturesSection />
 			<NoCatchesSection />
 			<FrequentQuestionsSection />
+			<TestimonialSection />
 		</main>
 	);
 }
