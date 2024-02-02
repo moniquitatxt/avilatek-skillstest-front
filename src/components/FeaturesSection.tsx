@@ -1,6 +1,7 @@
 import Card from "./Card";
 
 const FeaturesSection: React.FC = () => {
+	//TODO poner estas en un ts aparte
 	const integrations = [
 		{
 			icon: "/feature-icon-1.svg",

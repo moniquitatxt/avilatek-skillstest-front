@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import MainSection from "@/components/MainSection";
 import CtaSection from "@/components/CtaSection";
 import FeaturesSection from "@/components/FeaturesSection";
+import NoCatchesSection from "@/components/NoCatchesSection";
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<IntegrationsSection />
 			<CtaSection />
 			<FeaturesSection />
+			<NoCatchesSection />
 		</main>
 	);
 }
