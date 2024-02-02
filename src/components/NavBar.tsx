@@ -34,9 +34,21 @@ const NavBar: React.FC = () => {
 							href="/signup"
 							className="text-md font-semibold leading-6 hover:bg-purple-400 bg-purple-300 text-white py-2 px-4 rounded-md transition-all duration-100"
 						>
-							Sign in
+							Sign up
 						</Link>
 					</li>
+				</ul>
+				<ul
+					className={`md:flex  absolute top-12 right-0 bg-white p-4 space-y-4 ${
+						menuOpen ? "block" : "hidden"
+					}`}
+				>
+					<NavItem href="/">Home</NavItem>
+					<NavItem href="/products">Products</NavItem>
+					<NavItem href="/resources">Resources</NavItem>
+					<NavItem href="/pricing">Pricing</NavItem>
+					<NavItem href="/login">Log in</NavItem>
+					<NavItem href="/signup">Sign up</NavItem>
 				</ul>
 				<button className="md:hidden " onClick={toggleMenu}>
 					<BsList style={{ fontSize: "24px" }} />
