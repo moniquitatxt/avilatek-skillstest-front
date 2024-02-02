@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
-import { FaPlus, FaMinus } from "react-icons/fa";
+import PlusIcon from "../assets/plus-circle.svg";
+import MinusIcon from "../assets/minus-circle.svg";
+import Image from "next/image";
 
 interface AccordionItemProps {
 	title: string;
@@ -21,7 +23,12 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
 				onClick={toggleAccordion}
 			>
 				<h3 className="text-lg font-medium ">{title}</h3>
-				{isOpen ? <FaMinus /> : <FaPlus />}
+				<Image
+					width={24}
+					height={24}
+					src={isOpen ? MinusIcon : PlusIcon}
+					alt={isOpen ? "Minus" : "Plus"}
+				/>
 			</div>
 			{isOpen && (
 				<p className="text-gray-600 mt-2 text-base " text-gray-600>
