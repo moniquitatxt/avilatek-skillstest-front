@@ -4,6 +4,7 @@ import MainSection from "@/components/MainSection";
 import CtaSection from "@/components/CtaSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import NoCatchesSection from "@/components/NoCatchesSection";
+import FrequentQuestionsSection from "@/components/FrequentQuestionsSection";
 
 export default function Home() {
 	return (
@@ -16,6 +17,7 @@ export default function Home() {
 			<CtaSection />
 			<FeaturesSection />
 			<NoCatchesSection />
+			<FrequentQuestionsSection />
 		</main>
 	);
 }

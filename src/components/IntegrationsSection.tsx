@@ -33,7 +33,7 @@ const IntegrationsSection: React.FC = () => {
 			<p className="text-purple-400 text-[14px] font-medium mb-2">
 				Integrations
 			</p>
-			<h2 className="text-black text-[44px] font-semibold mb-4">
+			<h2 className="text-[44px] font-semibold mb-4">
 				Get more value from your tools
 			</h2>
 			<p className="max-w-[768px] mx-auto text-gray-600 text-[20px] font-normal mb-8">

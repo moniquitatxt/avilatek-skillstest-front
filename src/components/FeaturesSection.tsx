@@ -23,7 +23,7 @@ const FeaturesSection: React.FC = () => {
 	return (
 		<div className="text-center py-[100px] ">
 			<p className="text-purple-400 text-[14px] font-medium mb-2">Features</p>
-			<h2 className="text-black text-[44px] font-semibold mb-4">
+			<h2 className="text-[44px] font-semibold mb-4">
 				Cutting-edge features for advanced analytics
 			</h2>
 			<p className="max-w-[768px] mx-auto text-gray-600 text-[20px] font-normal mb-8">
