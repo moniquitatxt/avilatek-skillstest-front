@@ -1,5 +1,8 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import { BsList } from "react-icons/bs";
 
 interface NavItemProps {
 	href: string;
@@ -7,20 +10,24 @@ interface NavItemProps {
 }
 
 const NavBar: React.FC = () => {
+	const [menuOpen, setMenuOpen] = useState(false);
+	const toggleMenu = () => {
+		//TODO
+	};
 	return (
 		//TODO
 		<nav className="className=bg-transparent p-4">
 			<div className="mx-auto flex justify-between items-center">
 				<div className="flex space-x-4 items-center">
 					<Image src="logo.svg" width={142} height={32} alt="logo" />
-					<ul className="flex space-x-6">
+					<ul className="hidden md:flex space-x-6">
 						<NavItem href="/">Home</NavItem>
 						<NavItem href="/products">Products</NavItem>
 						<NavItem href="/resources">Resources</NavItem>
 						<NavItem href="/pricing">Pricing</NavItem>
 					</ul>
 				</div>
-				<ul className="flex space-x-6">
+				<ul className="hidden md:flex space-x-6">
 					<NavItem href="/login">Log in</NavItem>
 					<li>
 						<Link
@@ -31,6 +38,9 @@ const NavBar: React.FC = () => {
 						</Link>
 					</li>
 				</ul>
+				<button className="md:hidden " onClick={toggleMenu}>
+					<BsList style={{ fontSize: "24px" }} />
+				</button>
 			</div>
 		</nav>
 	);
