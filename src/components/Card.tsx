@@ -23,7 +23,7 @@ const Card: React.FC<CardProps> = ({ icon, title, text, linkText }) => {
 			<p className="text-gray-600 mb-4">{text}</p>
 			<a
 				href={title}
-				className="flex items-center justify-center text-purple-500"
+				className="flex items-center font-semibold  justify-center text-purple-400"
 			>
 				{linkText}
 				<svg
