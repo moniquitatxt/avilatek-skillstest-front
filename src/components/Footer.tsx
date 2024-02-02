@@ -1,48 +1,53 @@
 // components/Footer.tsx
+import Image from "next/image";
 import React from "react";
 
 const Footer: React.FC = () => {
 	return (
-		<footer className="">
-			<div className="flex flex-col md:flex-row justify-between">
-				{/* First Column: Product */}
-				<div className="mb-4 md:mb-0">
-					<p className="text-black text-sm mb-2">Product</p>
-					<ul className="text-purple-500 text-xs">
-						<li>Overview</li>
-						<li>Features</li>
-						<li>Solutions</li>
-						<li>Tutorials</li>
-						<li>Pricing</li>
-						<li>Releases</li>
-					</ul>
-				</div>
+		<footer className="sm:max-w-[343px] sm:mx-auto ">
+			<div className="flex flex-col md:flex-row justify-between py-20">
+				<div className="flex">
+					<div className="mb-4 mr-[32px] md:mb-0">
+						<p className="text-[14px] leading-[20px] text-black font-semibold mb-2">
+							Product
+						</p>
+						<ul className="text-[16px] leading-[24px] text-purple-400 font-semibold">
+							<li className="my-2">Overview</li>
+							<li className="my-2">Features</li>
+							<li className="my-2">Solutions</li>
+							<li className="my-2">Tutorials</li>
+							<li className="my-2">Pricing</li>
+							<li className="my-2">Releases</li>
+						</ul>
+					</div>
 
-				{/* Second Column: Company */}
-				<div className="mb-4 md:mb-0">
-					<p className="text-black text-sm mb-2">Company</p>
-					<ul className="text-purple-500 text-xs">
-						<li>About us</li>
-						<li>Careers</li>
-						<li>Press</li>
-						<li>News</li>
-						<li>Media kit</li>
-						<li>Contact</li>
-					</ul>
+					<div className="mb-4 md:mb-0">
+						<p className="text-[14px] leading-[20px] text-black font-semibold mb-2">
+							Company
+						</p>
+						<ul className="text-[16px] leading-[24px] text-purple-400 font-semibold">
+							<li className="my-2">About us</li>
+							<li className="my-2">Careers</li>
+							<li className="my-2">Press</li>
+							<li className="my-2">News</li>
+							<li className="my-2">Media kit</li>
+							<li className="my-2">Contact</li>
+						</ul>
+					</div>
 				</div>
-
-				{/* Right-aligned "Get the app" and images */}
-				<div className="text-sm text-purple-500">
-					<p className="mb-4 md:mb-0">Get the app</p>
-					<div className="flex">
-						<img
+				<div>
+					<p className="text-[14px] leading-[20px] font-semibold mb-4 md:mb-0">
+						Get the app
+					</p>
+					<div>
+						<Image
 							src="/ios.svg"
 							alt="ios logo"
-							className="mr-2"
+							className="mr-2 my-4"
 							width="135"
 							height="40"
 						/>
-						<img
+						<Image
 							src="/android.svg"
 							alt="google play logo"
 							width="135"
