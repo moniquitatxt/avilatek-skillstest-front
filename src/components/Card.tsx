@@ -11,7 +11,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ icon, title, text, linkText }) => {
 	return (
-		<div className="bg-white p-4 rounded-lg shadow-md text-center">
+		<div className="max-w-[343px] sm:mx-auto bg-white p-4 rounded-lg shadow-md text-center">
 			<Image
 				src={icon}
 				alt="Card Icon"

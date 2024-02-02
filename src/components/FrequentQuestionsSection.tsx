@@ -31,12 +31,12 @@ const FrequentQuestionsSection: React.FC = () => {
 	];
 
 	return (
-		<div className="py-[80px] max-w-[768px] mx-auto">
-			<div className="text-center  ">
-				<h2 className="text-[44px] font-semibold mb-4">
+		<div className="py-[80px] max-w-[768px] sm:max-w-[343px] mx-auto">
+			<div className="text-center">
+				<h2 className="md:text-[36px] md:leading-[44px]  text-[30px] leading-[38px] font-semibold mb-4">
 					Frequently asked questions
 				</h2>
-				<p className="max-w-[768px] mx-auto text-gray-600 text-[20px] font-normal mb-8">
+				<p className="max-w-[768px] mx-auto text-gray-600 md:text-[20px] md:leading-[30px] text-[18px] leading-[28px] font-normal mb-8">
 					Everything you need to know about the product and billing.
 				</p>
 			</div>

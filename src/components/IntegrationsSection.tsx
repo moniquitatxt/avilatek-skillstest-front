@@ -41,7 +41,7 @@ const IntegrationsSection: React.FC = () => {
 				available in our directory, your team's favorite tools are just a click
 				away.
 			</p>
-			<div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+			<div className=" grid grid-cols-1 md:grid-cols-3 gap-4">
 				{integrations.map((integration, index) => (
 					<Card
 						key={index}

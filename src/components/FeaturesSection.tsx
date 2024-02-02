@@ -21,16 +21,16 @@ const FeaturesSection: React.FC = () => {
 	];
 
 	return (
-		<div className="text-center py-[100px] ">
+		<div className="text-center py-[100px] sm:max-w-[343px] sm: mx-auto ">
 			<p className="text-purple-400 text-[14px] font-medium mb-2">Features</p>
-			<h2 className="text-[44px] font-semibold mb-4">
+			<h2 className="md:text-[36px] md:leading-[44px]  text-[30px] leading-[38px] font-semibold mb-4">
 				Cutting-edge features for advanced analytics
 			</h2>
-			<p className="max-w-[768px] mx-auto text-gray-600 text-[20px] font-normal mb-8">
+			<p className="max-w-[768px] mx-auto text-gray-600md:text-[20px] md:leading-[30px] text-[18px] leading-[28px] font-normal mb-8">
 				Powerful, self-serve product and growth analytics to help you convert,
 				engage, and retain more users. Trusted by over 4,000 startups..
 			</p>
-			<div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+			<div className=" grid grid-cols-1 md:grid-cols-3 gap-4">
 				{integrations.map((integration, index) => (
 					<Card key={index} {...integration} linkText="Learn more" />
 				))}
