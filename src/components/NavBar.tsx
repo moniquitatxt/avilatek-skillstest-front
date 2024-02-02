@@ -12,7 +12,7 @@ interface NavItemProps {
 const NavBar: React.FC = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const toggleMenu = () => {
-		//TODO
+		setMenuOpen(!menuOpen);
 	};
 	return (
 		//TODO
