@@ -39,7 +39,7 @@ const NavBar: React.FC = () => {
 					</li>
 				</ul>
 				<ul
-					className={`md:flex  absolute top-12 right-0 bg-white p-4 space-y-4 ${
+					className={`md:hidden absolute top-12 right-0 bg-white p-4 space-y-4 ${
 						menuOpen ? "block" : "hidden"
 					}`}
 				>
