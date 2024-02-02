@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const NoCatchesSection: React.FC = () => {
 	return (
-		<div className="max-w-[1200px] flex">
+		<div className="max-w-[1280px] p-8 flex justify-between">
 			<div className=" flex items-center ">
-				<div className="">
-					<h2 className="text-3xl font-semibold mb-4 md:text-4xl">
+				<div>
+					<h2 className="md:text-[48px] md:leading-[60px] font-semibold mb-4 md:text-4xl">
 						No long-term contracts.
 						<br /> No catches.
 					</h2>
-					<p className="text-lg mb-4 md:text-xl">
+					<p className="md:text-[20px] md:leading[30px] mb-4  ">
 						Start your 30-day free trial today.
 					</p>
 					<div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">

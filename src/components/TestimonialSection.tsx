@@ -19,7 +19,7 @@ const TestimonialSection = () => {
 						We can’t imagine working without it.
 					</h2>
 					<p className="text-lg  font-semibold md:text-xl">— Renee Wells</p>
-					<p className="text-lg mb-4 font-normal md:text-xl">
+					<p className="text-base mb-4 font-normal md:text-xl">
 						Product Designer, Quotient
 					</p>
 				</div>
