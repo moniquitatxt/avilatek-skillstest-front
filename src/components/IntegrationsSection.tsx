@@ -30,13 +30,13 @@ const IntegrationsSection: React.FC = () => {
 
 	return (
 		<div className="text-center">
-			<p className="text-purple-400 text-[14px] font-medium mb-2">
+			<p className="text-purple-400 text-[14px]  font-medium mb-2">
 				Integrations
 			</p>
-			<h2 className="text-[44px] font-semibold mb-4">
+			<h2 className="md:text-[36px] md:leading-[44px]  text-[30px] leading-[38px] font-semibold mb-4">
 				Get more value from your tools
 			</h2>
-			<p className="max-w-[768px] mx-auto text-gray-600 text-[20px] font-normal mb-8">
+			<p className="md:text-[20px] md:leading-[30px] text-[18px] leading-[28px] max-w-[768px] mx-auto text-gray-600 font-normal mb-8">
 				Connect your tools, connect your teams. With over 100 apps already
 				available in our directory, your team's favorite tools are just a click
 				away.

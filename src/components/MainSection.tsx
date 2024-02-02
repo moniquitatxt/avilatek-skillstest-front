@@ -40,7 +40,7 @@ const MainSection: React.FC = () => {
 					width={800}
 					height={492}
 					alt="graphic"
-					className="absolute  left-1/2 transform -translate-x-1/2 bottom-[-540px] z-0"
+					className="absolute  left-1/2 transform -translate-x-1/2 bottom-[-520px] z-0"
 				/>
 			</div>
 		</div>

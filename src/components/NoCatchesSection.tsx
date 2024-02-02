@@ -1,11 +1,12 @@
 import Image from "next/image";
+import PurpleButton from "./PurpleButton";
 
 const NoCatchesSection: React.FC = () => {
 	return (
-		<div className="max-w-[1280px] p-8 flex justify-between">
-			<div className=" flex items-center ">
+		<div className="max-w-[1280px] p-6 md:flex justify-between">
+			<div className="md:flex items-center ">
 				<div>
-					<h2 className="md:text-[48px] md:leading-[60px] font-semibold mb-4 md:text-4xl">
+					<h2 className="md:text-[48px] md:leading-[60px] font-semibold mb-4 ">
 						No long-term contracts.
 						<br /> No catches.
 					</h2>
@@ -16,49 +17,49 @@ const NoCatchesSection: React.FC = () => {
 						<button className="bg-white text-purple-500 py-2 px-4 rounded-full md:rounded">
 							Learn More
 						</button>
-						<button className="bg-purple-300 text-white py-2 px-4 rounded-full md:rounded">
-							Get Started
-						</button>
+						<PurpleButton />
 					</div>
 				</div>
 			</div>
 
 			<div className="">
-				<div className="flex justify-center place-items-baseline">
+				<div className="md:flex justify-center md:place-items-baseline">
 					<Image
 						src="/image-collage-1.svg"
 						alt="Cta Image"
-						width={160}
+						width={329}
 						height={160}
-						className="m-3.5"
+						className="md:w-[160px] h-[160px] md:m-2.5 object-cover "
 					/>
 					<Image
 						src="/image-collage-2.svg"
 						alt="Cta Image"
-						width={160}
-						height={240}
-						className=" b-0"
+						width={329}
+						height={160}
+						className=" md:w-[160px] md:h-[240px] h-[160px] md:m-2.5 object-cover object-top"
 					/>
 				</div>
-				<div className="flex justify-center items-start ">
+				<div className="md:flex justify-center md:items-start ">
 					<Image
 						src="/image-collage-3.svg"
 						alt="Cta Image"
-						width={192}
-						height={128}
+						width={329}
+						height={160}
+						className=" md:w-[192px] md:h-[128px] md:m-2.5 h-[160px] object-cover object-top"
 					/>
 					<Image
 						src="/image-collage-4.svg"
 						alt="Cta Image"
-						width={160}
-						height={240}
+						width={329}
+						height={160}
+						className=" md:w-[160px] md:h-[240px] md:m-2.5 h-[160px] object-cover object-top"
 					/>
 					<Image
 						src="/aux-image.svg"
 						alt="Cta Image"
-						width={192}
-						height={128}
-						className=" "
+						width={329}
+						height={160}
+						className=" md:w-[192px] md:h-[128px] md:m-2.5 h-[160px] object-cover object-top"
 					/>
 				</div>
 			</div>

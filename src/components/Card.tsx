@@ -19,7 +19,9 @@ const Card: React.FC<CardProps> = ({ icon, title, text, linkText }) => {
 				height={56}
 				className="mx-auto mb-2"
 			/>
-			<h2 className="text-xl font-semibold mb-2">{title}</h2>
+			<h2 className="md:text-[20px] md:leading-[30px] text-[18px] leading-[28px] font-semibold mb-2">
+				{title}
+			</h2>
 			<p className="text-gray-600 mb-4">{text}</p>
 			<a
 				href={title}
