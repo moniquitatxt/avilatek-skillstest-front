@@ -61,8 +61,7 @@ const Footer: React.FC = () => {
 				<div className="flex space-x-4 items-center">
 					<Image src="logo.svg" width={142} height={32} alt="logo" />
 				</div>
-				<div className="text-[16px] text-[#667085] leading-[24px] ">
-					{" "}
+				<div className="text-[16px] sm:text-[12px] text-[#667085] leading-[24px] ">
 					© 2077 Untitled UI. All rights reserved.
 				</div>
 			</div>
