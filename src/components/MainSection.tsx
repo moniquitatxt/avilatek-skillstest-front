@@ -3,8 +3,8 @@ import PurpleButton from "./PurpleButton";
 
 const MainSection: React.FC = () => {
 	return (
-		<div className="md:h-[1100px] sm:h-[900px] ">
-			<div className=" bg-purple-500 text-white  h-[674px] md:rounded-3xl pt-[96px] pb-[192px] p-x-[96px] text-center ">
+		<div className="  ">
+			<div className=" bg-purple-500 text-white  h-[674px] md:rounded-3xl pt-[96px] text-center ">
 				<div>
 					<h1 className=" md:text-[72px] md:leading-[90px] text-[36px] leading-[44px] font-semibold  tracking-wide  ">
 						Grow your users.
@@ -34,14 +34,15 @@ const MainSection: React.FC = () => {
 					</div>
 					<PurpleButton />
 				</div>
-
-				<Image
-					src="/graphic-card.svg"
-					width={800}
-					height={492}
-					alt="graphic"
-					className="absolute left-1/2 transform -translate-x-1/2 md:bottom-[-520px]  z-0"
-				/>
+				<div>
+					<Image
+						src="/graphic-card.svg"
+						width={800}
+						height={492}
+						alt="graphic"
+						className="relative left-1/2 -translate-x-1/2 z-0"
+					/>
+				</div>
 			</div>
 		</div>
 	);
