@@ -12,9 +12,7 @@ export default function Home() {
 	return (
 		<main className="max-w-[1216px] mx-auto">
 			<NavBar />
-			<div>
-				<MainSection />
-			</div>
+			<MainSection />
 			<IntegrationsSection />
 			<CtaSection />
 			<FeaturesSection />

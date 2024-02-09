@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
 				</div>
 			</div>
 
-			<div className="mx-auto flex justify-between items-center">
+			<div className="mx-auto md:flex justify-between items-center">
 				<div className="flex space-x-4 items-center">
 					<Image src="logo.svg" width={142} height={32} alt="logo" />
 				</div>
