@@ -20,7 +20,7 @@ const MainSection: React.FC = () => {
 				<div className="md:flex justify-between mx-auto max-w-[480px] m-[16px]">
 					<div className="">
 						<input
-							type="text"
+							type="email"
 							placeholder="Enter your email"
 							className="p-2 w-[335px] h-[48px]  border-white text-black rounded-md focus:outline-none"
 						/>
